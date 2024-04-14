@@ -56,7 +56,7 @@ Locales['nl'] = {
         },
         player_owned_label = 'Kies Speler',
         player_owned_desc = 'Als je de invoer leeg laat dan wordt de verkoopautomaat te koop aangeboden',
-        job_owned_label = 'Kies Baan',
+        job_owned_label = 'Kies Vending',
         job_owned_desc = 'Als je de invoer leeg laat dan wordt de verkoopautomaat te koop aangeboden, als het type in bezit van baan is dan zal bij aankoop door een speler dit van toepassing zijn op zijn baan',
         chose_grade = 'Kies Rang',
         chose_grade_desc = 'Minimale rang die toegang heeft tot het beheer van de verkoopautomaat'

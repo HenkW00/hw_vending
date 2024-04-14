@@ -1,6 +1,8 @@
 return {
     Locale = 'nl',
     
+    Update = true,
+
     Machines = {
         { label = 'prop_vend_coffe_01', value = 'prop_vend_coffe_01' },
         { label = 'prop_vend_water_01', value = 'prop_vend_water_01' },
@@ -9,7 +11,6 @@ return {
         { label = 'prop_vend_snak_01_tu', value = 'prop_vend_snak_01_tu' },
         -- you can add more
     },
-
 
     -- jobs that cant buy vending, if chosen type is "owned by job"
     BlacklsitedJobs = {

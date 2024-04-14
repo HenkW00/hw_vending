@@ -1,7 +1,7 @@
 local curVersion = GetResourceMetadata(GetCurrentResourceName(), "version")
 local resourceName = "hw_vending"
 
-
+if Update then
     CreateThread(function()
         if GetCurrentResourceName() ~= "hw_vending" then
             resourceName = "hw_vending (" .. GetCurrentResourceName() .. ")"
@@ -57,6 +57,7 @@ local resourceName = "hw_vending"
 
         return repoVersion, repoURL, repoBody
     end
+end
 
 AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then

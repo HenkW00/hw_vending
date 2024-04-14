@@ -334,6 +334,3 @@ AddEventHandler('onResourceStop', function(name)
         saveDB()
     end
 end)
-
-
-lib.versionCheck('HenkW00/hw_vending')
