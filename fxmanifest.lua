@@ -5,7 +5,7 @@ game 'gta5'
 
 author 'HenkW'
 description 'Ownable vending machines using OX'
-version '1.3.6'
+version '1.3.7'
 
 
 dependencies {
